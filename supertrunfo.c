@@ -15,7 +15,7 @@ int main() {
     printf("Digite o código da carta (ex: A01): ");
     scanf(" %3s", codigo1);
     printf("Digite o nome da cidade: ");
-    scanf(" %[^"]", nomeCidade1);
+    scanf("%[^\n]", nomeCidade1);
     printf("Digite a população: ");
     scanf(" %d", &populacao1);
     printf("Digite a área (km²): ");
@@ -31,7 +31,7 @@ int main() {
     printf("Digite o código da carta (ex: B02): ");
     scanf(" %3s", codigo2);
     printf("Digite o nome da cidade: ");
-    scanf(" %[^"]", nomeCidade2);
+    scanf("%[^\n]", nomeCidade2);
     printf("Digite a população: ");
     scanf(" %d", &populacao2);
     printf("Digite a área (km²): ");
@@ -62,4 +62,3 @@ int main() {
     
     return 0;
 }
-
